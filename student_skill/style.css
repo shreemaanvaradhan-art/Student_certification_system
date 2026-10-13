@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eaf4ff;
+    margin: 0;
+    padding: 30px;
+}
+
+.landing-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: center;
+    background: white;
+    padding: 50px 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #ccc;
+}
+
+.main-title {
+    font-size: 36px;
+    color: #1565c0;
+    margin-bottom: 40px;
+}
+
+.landing-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.landing-btn {
+    font-size: 20px;
+    padding: 18px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.teacher-btn {
+    background: #2e7d32;
+}
+
+.student-btn {
+    background: #1565c0;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.wide {
+    width: 95%;
+}
+
+h1 {
+    text-align: center;
+    color: #1565c0;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    flex: 1;
+    text-align: center;
+    padding: 12px 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.btn-submit {
+    background: #1565c0;
+}
+
+.btn-view {
+    background: #1565c0;
+    line-height: 18px;
+}
+
+.btn-delete {
+    background: #d32f2f;
+    line-height: 18px;
+}
+
+.add-button {
+    display: inline-block;
+    background: #1565c0;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #1565c0;
+    color: white;
+}
+
+.badge {
+    background: #eee;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.view-cert-btn {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.view-cert-btn:hover {
+    background-color: #0b7dda;
+}
+
+.delete-btn {
+    display: inline-block;
+    background-color: #d32f2f;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.delete-btn:hover {
+    background-color: #b71c1c;
+}
